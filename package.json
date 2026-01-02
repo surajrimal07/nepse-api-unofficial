@@ -1,6 +1,6 @@
 {
   "name": "nepse-api-unofficial",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Unofficial NEPSE (Nepal Stock Exchange) API client with auto-scaling worker pool for Node.js",
   "type": "module",
   "main": "./dist/index.js",
