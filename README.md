@@ -4,7 +4,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js Version](https://img.shields.io/node/v/nepse-api-unofficial.svg)](https://nodejs.org)
 
-A Node.js client for fetching data from Nepal Stock Exchange (NEPSE). This is an **unofficial** API client with an **auto-scaling worker pool** for high-performance concurrent requests.
+A client for fetching data from Nepal Stock Exchange (NEPSE). This is an **unofficial** API client built with **Bun** in mind, featuring an **auto-scaling worker pool** for high-performance concurrent requests.
+
+> **Note:** This project utilizes Bun workers. If you want to use this in Node.js, a PR is more than welcome!
 
 ## ⚠️ Disclaimer
 
@@ -26,6 +28,10 @@ This is an **unofficial** API client. It is not affiliated with, endorsed by, or
 ## Installation
 
 ```bash
+bun add nepse-api-unofficial
+```
+
+```bash
 npm install nepse-api-unofficial
 ```
 
@@ -39,7 +45,8 @@ pnpm add nepse-api-unofficial
 
 ## Requirements
 
-- Node.js 18.0.0 or higher (uses native `fetch` and WebAssembly)
+- [Bun](https://bun.sh) runtime (Tested with v1.3.5)
+- Node.js support is experimental/community-driven (PRs welcome)
 - ESM module support
 
 ## Quick Start

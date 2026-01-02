@@ -1,8 +1,9 @@
 /**
  * NEPSE Unofficial API
  *
- * A Node.js client for the Nepal Stock Exchange (NEPSE) unofficial API.
- * Features auto-scaling worker pool for high-concurrency scenarios.
+ * A client for the Nepal Stock Exchange (NEPSE) unofficial API.
+ * Built with Bun in mind and features auto-scaling worker pool for high-concurrency scenarios.
+ * Node.js support is welcome via PR.
  *
  * @example
  * ```typescript

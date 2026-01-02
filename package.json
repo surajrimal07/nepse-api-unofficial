@@ -1,7 +1,7 @@
 {
   "name": "nepse-api-unofficial",
   "version": "1.0.0",
-  "description": "Unofficial NEPSE (Nepal Stock Exchange) API client with auto-scaling worker pool for Node.js",
+  "description": "Unofficial NEPSE (Nepal Stock Exchange) API client built for Bun with auto-scaling worker pool. Node.js support via PR.",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -18,7 +18,8 @@
     "LICENSE"
   ],
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=18.0.0",
+    "bun": ">=1.3.5"
   },
   "keywords": [
     "nepse",
@@ -32,6 +33,7 @@
     "nepalstock",
     "share-market",
     "nepal-share",
+    "bun",
     "nodejs"
   ],
   "repository": {
